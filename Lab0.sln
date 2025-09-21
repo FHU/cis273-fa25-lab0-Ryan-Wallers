@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vector", "Vector\Vector.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prayer", "Prayer\Prayer.csproj", "{6A6025B0-26A5-4970-B650-AD46F889AB49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-RPG", "..\..\..\Desktop\Schoolwork\Freed Stuff\Fall 2025\Data Structures\Code\OOP-RPG\OOP-RPG.csproj", "{BC3A0CC0-629A-403B-8043-5848D188DE39}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
