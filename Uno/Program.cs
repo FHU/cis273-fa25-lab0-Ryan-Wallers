@@ -4,11 +4,11 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Card card = new Card();
-        card.Type = CardType.Number;
-        card.Color = Color.Red;
-        card.Number = 3;
+        var wild = new Card() { Type = CardType.Wild };
+        var blueReverse = new Card() { Type = CardType.Reverse, Color = Color.Blue };
 
-        Console.WriteLine(card.ToString() );
+        Console.WriteLine(Card.PlaysOn(wild, blueReverse));
+        
+        
     }
 }
